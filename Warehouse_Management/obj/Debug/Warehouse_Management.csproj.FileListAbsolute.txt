@@ -1,0 +1,12 @@
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\Warehouse_Management.exe.config
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\Warehouse_Management.exe
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\Warehouse_Management.pdb
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\obj\Debug\Warehouse_Management.csprojResolveAssemblyReference.cache
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\obj\Debug\Warehouse_Management.Properties.Resources.resources
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\obj\Debug\Warehouse_Management.csproj.GenerateResource.Cache
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\obj\Debug\Warehouse_Management.exe
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\obj\Debug\Warehouse_Management.pdb
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\EntityFramework.dll
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\EntityFramework.SqlServer.dll
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\EntityFramework.xml
+D:\Linq & EF\Project\Warehouse_Management\Warehouse_Management\bin\Debug\EntityFramework.SqlServer.xml

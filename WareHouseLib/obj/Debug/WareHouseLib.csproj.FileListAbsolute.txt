@@ -1,0 +1,15 @@
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\WareHouseLib.dll.config
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\WareHouseLib.dll
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\WareHouseLib.pdb
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\EntityFramework.dll
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\EntityFramework.SqlServer.dll
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\EntityFramework.xml
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\bin\Debug\EntityFramework.SqlServer.xml
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.dll
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.pdb
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.intialmodel.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.GenerateResource.Cache
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojAssemblyReference.cache
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.CoreCompileInputs.cache
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.CopyComplete
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedUserTable.resources
