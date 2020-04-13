@@ -9,7 +9,7 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.dl
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.pdb
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.intialmodel.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.GenerateResource.Cache
-D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojAssemblyReference.cache
-D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.CoreCompileInputs.cache
-D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.CopyComplete
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedUserTable.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojResolveAssemblyReference.cache
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.changedDBSchemaToModel2.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedQuantityToWareHouseProductsModel.resources

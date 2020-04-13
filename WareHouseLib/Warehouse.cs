@@ -16,5 +16,6 @@ namespace WareHouseLib
         public string StoreKeeper { get; set; }
         public bool IsDeleted { get; set; }
         public List<SupplyPermission> SupplyPermission { get; set; }
+        public List<WareHouseProducts> WarehouseProducts { get; set; }
     }
 }

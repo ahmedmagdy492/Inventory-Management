@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="DismissalPermission.cs" />
+    <Compile Include="DismissalPermissionProducts.cs" />
     <Compile Include="Migrations\202004111230489_intial-model.cs" />
     <Compile Include="Migrations\202004111230489_intial-model.designer.cs">
       <DependentUpon>202004111230489_intial-model.cs</DependentUpon>
@@ -62,14 +63,24 @@
     <Compile Include="Migrations\202004111258014_addedUserTable.designer.cs">
       <DependentUpon>202004111258014_addedUserTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004122051298_changedDBSchemaToModel2.cs" />
+    <Compile Include="Migrations\202004122051298_changedDBSchemaToModel2.designer.cs">
+      <DependentUpon>202004122051298_changedDBSchemaToModel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004130004500_addedQuantityToWareHouseProductsModel.cs" />
+    <Compile Include="Migrations\202004130004500_addedQuantityToWareHouseProductsModel.designer.cs">
+      <DependentUpon>202004130004500_addedQuantityToWareHouseProductsModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provider.cs" />
     <Compile Include="SupplyPermission.cs" />
+    <Compile Include="SupplyPermissionProducts.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Warehouse.cs" />
     <Compile Include="WarehouseModel.cs" />
+    <Compile Include="WareHouseProducts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -81,6 +92,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004111258014_addedUserTable.resx">
       <DependentUpon>202004111258014_addedUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004122051298_changedDBSchemaToModel2.resx">
+      <DependentUpon>202004122051298_changedDBSchemaToModel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004130004500_addedQuantityToWareHouseProductsModel.resx">
+      <DependentUpon>202004130004500_addedQuantityToWareHouseProductsModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

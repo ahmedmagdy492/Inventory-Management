@@ -28,32 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPanel));
             this.mainContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.btnUsers = new System.Windows.Forms.Button();
             this.btnClients = new System.Windows.Forms.Button();
             this.btnSuppliers = new System.Windows.Forms.Button();
             this.btnWarehouses = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
+            this.btnImportPers = new System.Windows.Forms.Button();
+            this.btnExportPers = new System.Windows.Forms.Button();
             this.btnReports = new System.Windows.Forms.Button();
             this.btnFullscreen = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.mainContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainContainer
             // 
             this.mainContainer.AccessibleRole = System.Windows.Forms.AccessibleRole.Pane;
+            this.mainContainer.BackColor = System.Drawing.Color.Snow;
             this.mainContainer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.mainContainer.Controls.Add(this.btnUsers);
             this.mainContainer.Controls.Add(this.btnClients);
             this.mainContainer.Controls.Add(this.btnSuppliers);
             this.mainContainer.Controls.Add(this.btnWarehouses);
-            this.mainContainer.Controls.Add(this.button1);
-            this.mainContainer.Controls.Add(this.button2);
+            this.mainContainer.Controls.Add(this.btnProducts);
+            this.mainContainer.Controls.Add(this.btnImportPers);
+            this.mainContainer.Controls.Add(this.btnExportPers);
             this.mainContainer.Controls.Add(this.btnReports);
             this.mainContainer.Controls.Add(this.btnFullscreen);
             this.mainContainer.Controls.Add(this.btnAbout);
+            this.mainContainer.Controls.Add(this.btnExit);
             this.mainContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainContainer.Location = new System.Drawing.Point(0, 0);
             this.mainContainer.Name = "mainContainer";
@@ -67,7 +73,7 @@
             this.btnUsers.Image = global::WareHouseManagement.Properties.Resources.users1;
             this.btnUsers.Location = new System.Drawing.Point(801, 23);
             this.btnUsers.Name = "btnUsers";
-            this.btnUsers.Size = new System.Drawing.Size(140, 145);
+            this.btnUsers.Size = new System.Drawing.Size(140, 140);
             this.btnUsers.TabIndex = 0;
             this.btnUsers.Text = "ادارة المستخدمين";
             this.btnUsers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -77,9 +83,9 @@
             // btnClients
             // 
             this.btnClients.Image = global::WareHouseManagement.Properties.Resources.clients1;
-            this.btnClients.Location = new System.Drawing.Point(643, 23);
+            this.btnClients.Location = new System.Drawing.Point(655, 23);
             this.btnClients.Name = "btnClients";
-            this.btnClients.Size = new System.Drawing.Size(152, 145);
+            this.btnClients.Size = new System.Drawing.Size(140, 140);
             this.btnClients.TabIndex = 1;
             this.btnClients.Text = "العملاء";
             this.btnClients.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -89,9 +95,9 @@
             // btnSuppliers
             // 
             this.btnSuppliers.Image = global::WareHouseManagement.Properties.Resources.supply;
-            this.btnSuppliers.Location = new System.Drawing.Point(465, 23);
+            this.btnSuppliers.Location = new System.Drawing.Point(509, 23);
             this.btnSuppliers.Name = "btnSuppliers";
-            this.btnSuppliers.Size = new System.Drawing.Size(172, 145);
+            this.btnSuppliers.Size = new System.Drawing.Size(140, 140);
             this.btnSuppliers.TabIndex = 2;
             this.btnSuppliers.Text = "الموردين";
             this.btnSuppliers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -101,41 +107,55 @@
             // btnWarehouses
             // 
             this.btnWarehouses.Image = global::WareHouseManagement.Properties.Resources.warehouse;
-            this.btnWarehouses.Location = new System.Drawing.Point(303, 23);
+            this.btnWarehouses.Location = new System.Drawing.Point(363, 23);
             this.btnWarehouses.Name = "btnWarehouses";
-            this.btnWarehouses.Size = new System.Drawing.Size(156, 145);
+            this.btnWarehouses.Size = new System.Drawing.Size(140, 140);
             this.btnWarehouses.TabIndex = 3;
             this.btnWarehouses.Text = "المخازن";
             this.btnWarehouses.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnWarehouses.UseVisualStyleBackColor = true;
             this.btnWarehouses.Click += new System.EventHandler(this.btnWarehouses_Click);
             // 
-            // button1
+            // btnProducts
             // 
-            this.button1.Image = global::WareHouseManagement.Properties.Resources.bill;
-            this.button1.Location = new System.Drawing.Point(157, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 145);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "اذونات التوريد";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnProducts.Image = global::WareHouseManagement.Properties.Resources.prods;
+            this.btnProducts.Location = new System.Drawing.Point(217, 23);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(140, 140);
+            this.btnProducts.TabIndex = 10;
+            this.btnProducts.Text = "الاصناف";
+            this.btnProducts.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
-            // button2
+            // btnImportPers
             // 
-            this.button2.Image = global::WareHouseManagement.Properties.Resources.dis;
-            this.button2.Location = new System.Drawing.Point(17, 23);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 145);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "اذونات الصرف";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnImportPers.Image = global::WareHouseManagement.Properties.Resources.bill;
+            this.btnImportPers.Location = new System.Drawing.Point(71, 23);
+            this.btnImportPers.Name = "btnImportPers";
+            this.btnImportPers.Size = new System.Drawing.Size(140, 140);
+            this.btnImportPers.TabIndex = 4;
+            this.btnImportPers.Text = "اذونات التوريد";
+            this.btnImportPers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnImportPers.UseVisualStyleBackColor = true;
+            this.btnImportPers.Click += new System.EventHandler(this.btnImportPers_Click);
+            // 
+            // btnExportPers
+            // 
+            this.btnExportPers.Image = global::WareHouseManagement.Properties.Resources.dis;
+            this.btnExportPers.Location = new System.Drawing.Point(801, 169);
+            this.btnExportPers.Name = "btnExportPers";
+            this.btnExportPers.Size = new System.Drawing.Size(140, 140);
+            this.btnExportPers.TabIndex = 5;
+            this.btnExportPers.Text = "اذونات الصرف";
+            this.btnExportPers.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExportPers.UseVisualStyleBackColor = true;
+            this.btnExportPers.Click += new System.EventHandler(this.btnExportPers_Click);
             // 
             // btnReports
             // 
             this.btnReports.Image = global::WareHouseManagement.Properties.Resources.report;
-            this.btnReports.Location = new System.Drawing.Point(801, 174);
+            this.btnReports.Location = new System.Drawing.Point(655, 169);
             this.btnReports.Name = "btnReports";
             this.btnReports.Size = new System.Drawing.Size(140, 140);
             this.btnReports.TabIndex = 6;
@@ -146,9 +166,9 @@
             // btnFullscreen
             // 
             this.btnFullscreen.Image = global::WareHouseManagement.Properties.Resources.screen;
-            this.btnFullscreen.Location = new System.Drawing.Point(643, 174);
+            this.btnFullscreen.Location = new System.Drawing.Point(509, 169);
             this.btnFullscreen.Name = "btnFullscreen";
-            this.btnFullscreen.Size = new System.Drawing.Size(152, 140);
+            this.btnFullscreen.Size = new System.Drawing.Size(140, 140);
             this.btnFullscreen.TabIndex = 7;
             this.btnFullscreen.Text = "وضع ملأ الشاشة";
             this.btnFullscreen.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -158,14 +178,26 @@
             // btnAbout
             // 
             this.btnAbout.Image = global::WareHouseManagement.Properties.Resources.about;
-            this.btnAbout.Location = new System.Drawing.Point(465, 174);
+            this.btnAbout.Location = new System.Drawing.Point(363, 169);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(172, 140);
+            this.btnAbout.Size = new System.Drawing.Size(140, 140);
             this.btnAbout.TabIndex = 8;
             this.btnAbout.Text = "حول";
             this.btnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAbout.UseVisualStyleBackColor = true;
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Image = global::WareHouseManagement.Properties.Resources.exit;
+            this.btnExit.Location = new System.Drawing.Point(217, 169);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(140, 140);
+            this.btnExit.TabIndex = 9;
+            this.btnExit.Text = "خروج";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // MainPanel
             // 
@@ -175,6 +207,7 @@
             this.Controls.Add(this.mainContainer);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainPanel";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -194,10 +227,12 @@
         private System.Windows.Forms.Button btnClients;
         private System.Windows.Forms.Button btnSuppliers;
         private System.Windows.Forms.Button btnWarehouses;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnImportPers;
+        private System.Windows.Forms.Button btnExportPers;
         private System.Windows.Forms.Button btnReports;
         private System.Windows.Forms.Button btnFullscreen;
         private System.Windows.Forms.Button btnAbout;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnProducts;
     }
 }

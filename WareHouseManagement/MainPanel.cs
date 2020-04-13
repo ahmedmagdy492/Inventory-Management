@@ -69,5 +69,29 @@ namespace WareHouseManagement
             frmClients frmClients = new frmClients();
             frmClients.ShowDialog();
         }
+
+        private void btnImportPers_Click(object sender, EventArgs e)
+        {
+            frmImports frmImp = new frmImports();
+            frmImp.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.OpenForms[0].Close();
+        }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+            frmProducts frm = new frmProducts();
+            frm.ShowDialog();
+        }
+
+        private void btnExportPers_Click(object sender, EventArgs e)
+        {
+            frmExports frm = new frmExports();
+            frm.ShowDialog();
+        }
     }
 }

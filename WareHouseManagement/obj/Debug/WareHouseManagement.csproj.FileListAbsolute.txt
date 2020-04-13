@@ -23,3 +23,9 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHous
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmAbout.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmClients.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmEditCustomer.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmImports.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmNewImPer.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.ProductsInSuppPer.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmProducts.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmExports.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmNewExportPer.resources

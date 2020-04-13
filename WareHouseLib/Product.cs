@@ -15,6 +15,9 @@ namespace WareHouseLib
         public DateTime ExpirationDate { get; set; }
         [ForeignKey(nameof(Provider))]
         public int ProviderId { get; set; }
+        public List<WareHouseProducts> WareHouseProducts { get; set; }
+        public List<SupplyPermissionProducts> SupplyPermissionProducts { get; set; }
+        public List<DismissalPermissionProducts> DismissalPermissionProducts { get; set; }
         public bool IsDeleted { get; set; }
         public Provider Provider { get; set; }
         public List<SupplyPermission> SupplyPermission { get; set; }

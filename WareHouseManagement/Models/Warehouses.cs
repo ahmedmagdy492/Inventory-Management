@@ -24,6 +24,14 @@ namespace WareHouseManagement.Models
             });
         }
 
+        public Task<Warehouse> GetOne(int id)
+        {
+            return Task.Run(() =>
+            {
+                return db.WareHouses.FirstOrDefault(w => w.Id == id);
+            });
+        }
+
         public Task<List<Warehouse>> CreateWareHouse(Warehouse warehouse)
         {
             return Task.Run(() =>
