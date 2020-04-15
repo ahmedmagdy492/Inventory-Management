@@ -161,7 +161,6 @@ namespace WareHouseManagement
                 DismissalPermission dp = await dpDB.Create(new DismissalPermission
                 {
                     PermissionDate = DateTime.Now,
-                    CustomerId = Convert.ToInt32(cmbCustomers.SelectedValue.ToString()),
                     WareHouseId = Convert.ToInt32(cmbWarehouses.SelectedValue.ToString())
                 });
 
@@ -171,7 +170,8 @@ namespace WareHouseManagement
                     {
                         DismissalPerId = dp.Id,
                         ProductId = prod.ProductId,
-                        Quantity = prod.Quantity
+                        Quantity = prod.Quantity,
+                        CustomerId = Convert.ToInt32(cmbCustomers.SelectedValue.ToString())
                     };
                     await dppDB.Create(dpp);
                 }

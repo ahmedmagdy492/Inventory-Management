@@ -73,7 +73,7 @@ namespace WareHouseManagement
         private void btnImportPers_Click(object sender, EventArgs e)
         {
             frmImports frmImp = new frmImports();
-            frmImp.ShowDialog();
+            frmImp.ShowDialog();            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -91,6 +91,12 @@ namespace WareHouseManagement
         private void btnExportPers_Click(object sender, EventArgs e)
         {
             frmExports frm = new frmExports();
+            frm.ShowDialog();
+        }
+
+        private void btnMoveProds_Click(object sender, EventArgs e)
+        {
+            frmMoveProdsAcrossWarehouses frm = new frmMoveProdsAcrossWarehouses();
             frm.ShowDialog();
         }
     }

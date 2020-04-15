@@ -103,6 +103,16 @@ namespace WareHouseManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cycle {
+            get {
+                object obj = ResourceManager.GetObject("cycle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dis {
             get {
                 object obj = ResourceManager.GetObject("dis", resourceCulture);

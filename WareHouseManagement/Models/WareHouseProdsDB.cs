@@ -33,6 +33,8 @@ namespace WareHouseManagement.Models
 
                 if(product == null)
                 {
+                    whp.Product = null;
+                    whp.Warehouse = null;
                     db.WareHouseProducts.Add(whp);
                 }
                 else

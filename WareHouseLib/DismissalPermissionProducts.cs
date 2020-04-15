@@ -13,8 +13,11 @@ namespace WareHouseLib
         [ForeignKey(nameof(DismissalPermission))]
         [Column(Order = 2)]
         public int DismissalPerId { get; set; }
+        [ForeignKey(nameof(Customer))]
+        public int? CustomerId { get; set; }
         public int Quantity { get; set; }
         public Product Product { get; set; }
         public DismissalPermission DismissalPermission { get; set; }
+        public Customer Customer { get; set; }
     }
 }

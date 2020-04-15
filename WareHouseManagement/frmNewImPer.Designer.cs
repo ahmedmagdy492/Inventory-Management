@@ -39,7 +39,6 @@
             this.btnNewProduct = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtMeasureUnit = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,6 +55,7 @@
             this.btnNewPer = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.cmbWareHouse = new System.Windows.Forms.ComboBox();
+            this.txtMeasureUnit = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtProds)).BeginInit();
@@ -165,13 +165,6 @@
             this.label3.Size = new System.Drawing.Size(76, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "تاريخ الانتاج";
-            // 
-            // txtMeasureUnit
-            // 
-            this.txtMeasureUnit.Location = new System.Drawing.Point(799, 101);
-            this.txtMeasureUnit.Name = "txtMeasureUnit";
-            this.txtMeasureUnit.Size = new System.Drawing.Size(201, 27);
-            this.txtMeasureUnit.TabIndex = 3;
             // 
             // label2
             // 
@@ -307,6 +300,13 @@
             this.cmbWareHouse.Size = new System.Drawing.Size(193, 29);
             this.cmbWareHouse.TabIndex = 10;
             // 
+            // txtMeasureUnit
+            // 
+            this.txtMeasureUnit.Location = new System.Drawing.Point(799, 101);
+            this.txtMeasureUnit.Name = "txtMeasureUnit";
+            this.txtMeasureUnit.Size = new System.Drawing.Size(201, 27);
+            this.txtMeasureUnit.TabIndex = 3;
+            // 
             // frmNewImPer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -346,7 +346,6 @@
         private System.Windows.Forms.Button btnNewProduct;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtMeasureUnit;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label1;
@@ -365,5 +364,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ExpiryDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn provName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        private System.Windows.Forms.TextBox txtMeasureUnit;
     }
 }

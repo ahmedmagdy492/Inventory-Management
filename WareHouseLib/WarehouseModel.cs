@@ -17,6 +17,8 @@ namespace WareHouseLib
         public DbSet<SupplyPermissionProducts> SupplyPermissionProducts { get; set; }
         public DbSet<DismissalPermissionProducts> DismissalPermissionProducts { get; set; }
         public DbSet<WareHouseProducts> WareHouseProducts { get; set; }
+        public DbSet<ProductMeasureUnit> ProductMeasureUnits { get; set; }
+
         // Your context has been configured to use a 'WarehouseModel' connection string from your application's 
         // configuration file (App.config or Web.config). By default, this connection string targets the 
         // 'WareHouseLib.WarehouseModel' database on your LocalDb instance. 

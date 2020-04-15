@@ -31,13 +31,13 @@ namespace WareHouseManagement.Models
             });
         }        
 
-        public Task<List<SupplyPermission>> Create(SupplyPermission spermission)
+        public Task<SupplyPermission> Create(SupplyPermission spermission)
         {
             return Task.Run(() =>
             {
-                db.SupplyPermissions.Add(spermission);
+                var sp = db.SupplyPermissions.Add(spermission);
                 db.SaveChanges();
-                return GetAll();
+                return sp;
             });
         }
 

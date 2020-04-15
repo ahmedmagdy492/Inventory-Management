@@ -29,3 +29,4 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHous
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmProducts.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmExports.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmNewExportPer.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseManagement\obj\Debug\WareHouseManagement.frmMoveProdsAcrossWarehouses.resources

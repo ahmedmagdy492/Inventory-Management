@@ -21,5 +21,6 @@ namespace WareHouseLib
         public bool IsDeleted { get; set; }
         public Provider Provider { get; set; }
         public List<SupplyPermission> SupplyPermission { get; set; }
+        public List<ProductMeasureUnit> MeasureUnits { get; set; }
     }
 }

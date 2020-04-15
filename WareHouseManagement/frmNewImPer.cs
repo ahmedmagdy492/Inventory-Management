@@ -21,6 +21,7 @@ namespace WareHouseManagement
         private List<Product> Products;
         private SupplyPermissionsProductsDB sppDB;
         private readonly WareHouseProdsDB whpDB;
+        private readonly MeasureUnitsDB muDB;
         public frmNewImPer()
         {
             InitializeComponent();
@@ -31,6 +32,7 @@ namespace WareHouseManagement
             spDb = new SupplyPermissions();
             sppDB = new SupplyPermissionsProductsDB();
             whpDB = new WareHouseProdsDB();
+            muDB = new MeasureUnitsDB();
         }
 
         private async void AddCustomSuggestion()
@@ -57,7 +59,7 @@ namespace WareHouseManagement
             // loading all warehouses            
             cmbWareHouse.DataSource = await wareDb.GetWarehouses();
             cmbWareHouse.ValueMember = "Id";
-            cmbWareHouse.DisplayMember = "Name";
+            cmbWareHouse.DisplayMember = "Name";            
 
             this.Text = "اذن توريد جديد";
         }

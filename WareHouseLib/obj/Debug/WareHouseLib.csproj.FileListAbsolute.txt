@@ -13,3 +13,6 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Mi
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojResolveAssemblyReference.cache
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.changedDBSchemaToModel2.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedQuantityToWareHouseProductsModel.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.movedCustomerIdToMToMTable.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.madeCustomerIdNullable.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedMeasureUnitModel.resources

@@ -71,8 +71,21 @@
     <Compile Include="Migrations\202004130004500_addedQuantityToWareHouseProductsModel.designer.cs">
       <DependentUpon>202004130004500_addedQuantityToWareHouseProductsModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004142329353_movedCustomerIdToMToMTable.cs" />
+    <Compile Include="Migrations\202004142329353_movedCustomerIdToMToMTable.designer.cs">
+      <DependentUpon>202004142329353_movedCustomerIdToMToMTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004142350383_madeCustomerIdNullable.cs" />
+    <Compile Include="Migrations\202004142350383_madeCustomerIdNullable.designer.cs">
+      <DependentUpon>202004142350383_madeCustomerIdNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004151552429_addedMeasureUnitModel.cs" />
+    <Compile Include="Migrations\202004151552429_addedMeasureUnitModel.designer.cs">
+      <DependentUpon>202004151552429_addedMeasureUnitModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="ProductMeasureUnit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provider.cs" />
     <Compile Include="SupplyPermission.cs" />
@@ -98,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004130004500_addedQuantityToWareHouseProductsModel.resx">
       <DependentUpon>202004130004500_addedQuantityToWareHouseProductsModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004142329353_movedCustomerIdToMToMTable.resx">
+      <DependentUpon>202004142329353_movedCustomerIdToMToMTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004142350383_madeCustomerIdNullable.resx">
+      <DependentUpon>202004142350383_madeCustomerIdNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004151552429_addedMeasureUnitModel.resx">
+      <DependentUpon>202004151552429_addedMeasureUnitModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
