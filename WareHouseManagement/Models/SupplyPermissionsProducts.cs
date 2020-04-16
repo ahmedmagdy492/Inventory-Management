@@ -16,6 +16,14 @@ namespace WareHouseManagement.Models
             db = new WarehouseModel();
         }
 
+        public Task<List<SupplyPermissionProducts>> GetWithId(int perId)
+        {
+            return Task.Run(() =>
+            {
+                return db.SupplyPermissionProducts.Include("Product").Where(spp => spp.SupplyPerId == perId).ToList();
+            });
+        }
+
         public Task<List<SupplyPermissionProducts>> GetAll()
         {
             return Task.Run(() =>

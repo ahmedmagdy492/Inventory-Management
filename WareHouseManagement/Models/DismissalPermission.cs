@@ -24,6 +24,22 @@ namespace WareHouseManagement.Models
             });
         }
 
+        public Task<List<DismissalPermission>> GetWithDate(DateTime from, DateTime to)
+        {
+            return Task.Run(() =>
+            {
+                return db.DismissalPermissions.Where(dp => dp.PermissionDate >= from && dp.PermissionDate <= to).ToList();
+            });
+        }
+
+        public Task<List<DismissalPermission>> GetWithId(int id)
+        {
+            return Task.Run(() =>
+            {
+                return db.DismissalPermissions.Where(sp => sp.WareHouseId == id).ToList();
+            });
+        }
+
         public Task<DismissalPermission> GetOne(int id)
         {
             return Task.Run(() =>

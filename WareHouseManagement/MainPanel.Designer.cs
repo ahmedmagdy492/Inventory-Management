@@ -176,6 +176,7 @@
             this.btnReports.Text = "التقارير";
             this.btnReports.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnReports.UseVisualStyleBackColor = true;
+            this.btnReports.Click += new System.EventHandler(this.btnReports_Click);
             // 
             // btnFullscreen
             // 

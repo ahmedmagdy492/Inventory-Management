@@ -99,5 +99,11 @@ namespace WareHouseManagement
             frmMoveProdsAcrossWarehouses frm = new frmMoveProdsAcrossWarehouses();
             frm.ShowDialog();
         }
+
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            frmReports frmReports = new frmReports();
+            frmReports.ShowDialog();
+        }
     }
 }

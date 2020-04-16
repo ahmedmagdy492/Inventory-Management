@@ -10,7 +10,6 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.pd
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.intialmodel.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csproj.GenerateResource.Cache
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedUserTable.resources
-D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojResolveAssemblyReference.cache
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.changedDBSchemaToModel2.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedQuantityToWareHouseProductsModel.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.movedCustomerIdToMToMTable.resources

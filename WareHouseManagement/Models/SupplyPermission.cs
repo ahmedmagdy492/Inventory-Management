@@ -23,6 +23,22 @@ namespace WareHouseManagement.Models
             });
         }
 
+        public Task<List<SupplyPermission>> GetWithDate(DateTime from, DateTime to)
+        {
+            return Task.Run(() =>
+            {
+                return db.SupplyPermissions.Where(sp => sp.PermissionDate >= from && sp.PermissionDate <= to).ToList();
+            });
+        }
+
+        public Task<List<SupplyPermission>> GetWithId(int id)
+        {
+            return Task.Run(() =>
+            {
+                return db.SupplyPermissions.Where(sp => sp.WareHouseId == id).ToList();
+            });
+        }
+
         public Task<List<SupplyPermissionProducts>> GetAllWithId(int id)
         {
             return Task.Run(() =>

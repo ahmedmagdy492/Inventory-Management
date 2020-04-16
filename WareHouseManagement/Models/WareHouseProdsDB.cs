@@ -22,7 +22,28 @@ namespace WareHouseManagement.Models
             {
                 return db.WareHouseProducts.ToList();
             });
-        }        
+        }
+
+        public List<WareHouseProducts> GetProdsWithWarehousesAndDate(int[] warehousesIds, DateTime from, DateTime to)
+        {
+            var warehouseProds = GetProdsFromSeveralWarehouses(warehousesIds);
+            return warehouseProds.Where(wp => wp.Product.ProductionDate >= from && wp.Product.ExpirationDate <= to).ToList();
+        }
+
+        public List<WareHouseProducts> GetProdsFromSeveralWarehouses(int[] warehousesIds)
+        {
+            List<WareHouseProducts> warehouseProds = new List<WareHouseProducts>();
+            int counter = 0;
+            foreach (var id in warehousesIds)
+            {
+                foreach (var prod in db.WareHouseProducts.Include("Product").Include("Warehouse").Where(p => p.WareHouseId == id).ToList())
+                {
+                    warehouseProds.Add(prod);
+                }
+                counter++;
+            }
+            return warehouseProds;
+        }
 
         public Task<List<WareHouseProducts>> UpdateOrCreate(WareHouseProducts whp)
         {
