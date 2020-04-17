@@ -32,11 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmImports));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnNewImPer = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateFrom = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTo = new System.Windows.Forms.DateTimePicker();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.dtPers = new System.Windows.Forms.DataGridView();
             this.ttHelpImports = new System.Windows.Forms.ToolTip(this.components);
             this.flowLayoutPanel1.SuspendLayout();
@@ -46,11 +41,6 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnNewImPer);
-            this.flowLayoutPanel1.Controls.Add(this.label1);
-            this.flowLayoutPanel1.Controls.Add(this.dateFrom);
-            this.flowLayoutPanel1.Controls.Add(this.label2);
-            this.flowLayoutPanel1.Controls.Add(this.dateTo);
-            this.flowLayoutPanel1.Controls.Add(this.btnSearch);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(17, 16, 17, 16);
@@ -68,53 +58,6 @@
             this.btnNewImPer.Text = "اذن توريد جديد";
             this.btnNewImPer.UseVisualStyleBackColor = true;
             this.btnNewImPer.Click += new System.EventHandler(this.btnNewImPer_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(924, 10);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(17, 16, 17, 16);
-            this.label1.Size = new System.Drawing.Size(57, 53);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "من";
-            // 
-            // dateFrom
-            // 
-            this.dateFrom.Location = new System.Drawing.Point(682, 26);
-            this.dateFrom.Margin = new System.Windows.Forms.Padding(17, 16, 17, 16);
-            this.dateFrom.Name = "dateFrom";
-            this.dateFrom.RightToLeftLayout = true;
-            this.dateFrom.Size = new System.Drawing.Size(222, 27);
-            this.dateFrom.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(602, 10);
-            this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(17, 16, 17, 16);
-            this.label2.Size = new System.Drawing.Size(60, 53);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "الي";
-            // 
-            // dateTo
-            // 
-            this.dateTo.Location = new System.Drawing.Point(360, 26);
-            this.dateTo.Margin = new System.Windows.Forms.Padding(17, 16, 17, 16);
-            this.dateTo.Name = "dateTo";
-            this.dateTo.RightToLeftLayout = true;
-            this.dateTo.Size = new System.Drawing.Size(222, 27);
-            this.dateTo.TabIndex = 4;
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Location = new System.Drawing.Point(124, 13);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(216, 43);
-            this.btnSearch.TabIndex = 5;
-            this.btnSearch.Text = "بحث";
-            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // dtPers
             // 
@@ -156,7 +99,6 @@
             this.Text = "اذونات التوريد";
             this.Load += new System.EventHandler(this.frmImports_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtPers)).EndInit();
             this.ResumeLayout(false);
 
@@ -166,12 +108,7 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnNewImPer;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateFrom;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTo;
         private System.Windows.Forms.DataGridView dtPers;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.ToolTip ttHelpImports;
     }
 }

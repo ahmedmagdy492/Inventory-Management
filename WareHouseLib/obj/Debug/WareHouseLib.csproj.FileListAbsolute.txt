@@ -15,3 +15,4 @@ D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Mi
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.movedCustomerIdToMToMTable.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.madeCustomerIdNullable.resources
 D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.Migrations.addedMeasureUnitModel.resources
+D:\Linq & EF\Project\Warehouse_Management\WareHouseLib\obj\Debug\WareHouseLib.csprojResolveAssemblyReference.cache

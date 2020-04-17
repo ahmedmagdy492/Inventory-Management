@@ -28,5 +28,11 @@ namespace WareHouseManagement
             frmReportPord frm = new frmReportPord();
             frm.ShowDialog();
         }
+
+        private void btnProdsWithPeriods_Click(object sender, EventArgs e)
+        {
+            frmProdsWithPeriods frm = new frmProdsWithPeriods();
+            frm.ShowDialog();
+        }
     }
 }

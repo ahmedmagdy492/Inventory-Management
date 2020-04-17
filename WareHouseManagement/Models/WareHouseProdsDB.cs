@@ -24,6 +24,14 @@ namespace WareHouseManagement.Models
             });
         }
 
+        public Task<List<WareHouseProducts>> GetAllIncludeProduct()
+        {
+            return Task.Run(() =>
+            {
+                return db.WareHouseProducts.Include("Product").ToList();
+            });
+        }
+
         public List<WareHouseProducts> GetProdsWithWarehousesAndDate(int[] warehousesIds, DateTime from, DateTime to)
         {
             var warehouseProds = GetProdsFromSeveralWarehouses(warehousesIds);
